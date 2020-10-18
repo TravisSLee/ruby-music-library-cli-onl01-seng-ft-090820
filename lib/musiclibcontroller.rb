@@ -35,6 +35,7 @@ class MusicLibraryController
       when "play song"
         play_song
       else
+        "Type in a valid request please"
       end
     end
   end
